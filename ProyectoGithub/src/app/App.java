@@ -10,6 +10,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         GestorTareas gestor = new GestorTareas();
         System.out.println("Mensaje de prueba hecho por Marcelo Palomino");
+        System.out.println("Mensaje de prueba hecho por Pablo Vélez");
         
         int opcion;
 
