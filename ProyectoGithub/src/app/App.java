@@ -15,8 +15,11 @@ public class App {
 
         do {
             mostrarMenu();
-            opcion = sc.nextInt();
-            sc.nextLine(); // limpiar buffer
+            //opcion = sc.nextInt();
+            //sc.nextLine(); // limpiar buffer
+              
+            // Modificación de Pablo Vélez
+            opcion = Integer.parseInt(sc.nextLine());
 
             switch (opcion) {
                 case 1:
